@@ -1,0 +1,8 @@
+{
+  "deps": [
+    ["github:gbenson/micropython-lander", "main"]
+  ],
+  "urls": [
+    ["presto_lander.py", "lander.py"]
+  ]
+}

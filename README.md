@@ -12,6 +12,11 @@ David Braben's epic game for the Acorn Archimedes.
 
 Copy `src/lander` into the badge's `apps` folder.
 
+### Pimoroni Presto
+
+```sh
+mpremote mip install --target / github:gbenson/micropython-lander/ports/presto
+```
 
 ## Development
 

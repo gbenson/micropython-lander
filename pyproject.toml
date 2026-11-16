@@ -13,6 +13,9 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/gbenson/micropython-lander"
 
+[project.scripts]
+update-package-json = "scripts.update_package_json:main"
+
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"

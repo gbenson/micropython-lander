@@ -1,0 +1,12 @@
+{
+  "urls": [
+    ["lander/__init__.py", "src/lander/__init__.py"],
+    ["lander/display.py", "src/lander/display.py"],
+    ["lander/lander.py", "src/lander/lander.py"],
+    ["lander/ports/__init__.py", "src/lander/ports/__init__.py"],
+    ["lander/ports/boards/__init__.py", "src/lander/ports/boards/__init__.py"],
+    ["lander/ports/boards/presto.py", "src/lander/ports/boards/presto.py"],
+    ["lander/ports/boards/tufty2350.py", "src/lander/ports/boards/tufty2350.py"],
+    ["lander/ports/picographics.py", "src/lander/ports/picographics.py"]
+  ]
+}

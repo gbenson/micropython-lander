@@ -18,3 +18,14 @@ os.chdir("/system/apps/lander")
 sys.path.insert(0, "/system/apps/lander")
 __import__("/system/apps/lander")
 ```
+
+## Pimoroni Presto
+
+Installation is via `mpremote mip`.  `src/lander` is installed in
+`/lander`, and `ports/presto/lander.py` is installed as
+`/presto_lander.py`.  The Presto launcher (`/main.py`) adds every
+`*.py` in the filesystem root aside from itself and `/secrets.py`
+to the rotating menu, so `/presto_lander.py` can't be `*.mpy`
+(though everything else likely can).  You may need to add
+`"image": "\ue3f4"` to the `icons` mapping in `/main.py` if the
+icon isn't shown.
