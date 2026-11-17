@@ -3,6 +3,8 @@
 MicroPython port of [Lander](https://lander.bbcelite.com/),
 David Braben's epic game for the Acorn Archimedes.
 
+![Screenshot of Lander on the Acorn Archimedes](assets/archimedes-lander.png)
+
 ## Development
 
 ```sh
