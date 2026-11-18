@@ -5,6 +5,14 @@ David Braben's epic game for the Acorn Archimedes.
 
 ![Screenshot of Lander on the Acorn Archimedes](assets/archimedes-lander.png)
 
+
+## Installation
+
+### Badgeware
+
+Copy `src/lander` into the badge's `apps` folder.
+
+
 ## Development
 
 ```sh
